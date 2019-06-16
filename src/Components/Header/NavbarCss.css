@@ -1,0 +1,101 @@
+.nav-height{
+    height: 75px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 50;
+}
+
+.scrolled{
+    background-color:rgb(51, 1, 107);
+    position: fixed;
+    z-index: 50;
+    height: 75px;
+    width: 100%;
+}
+
+.hovMenu:hover{
+    cursor: context-menu;
+}
+.bg-color {
+    background-color: transparent;
+}
+
+.nav_left,
+.nav_right{
+    display: flex;
+    align-items: center;
+}
+
+.nav_right{
+    justify-content: flex-end;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 30px;
+}
+
+.hamburger .fas{
+    color: rgb(252, 210, 50);
+    transform: scale(2, 1.5);
+}
+
+.hamburger:hover{
+    cursor: pointer;
+}
+
+.hamburger:focus,
+.btn2:focus,
+.btn3:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.yellowLetters{
+    color: rgb(252, 210, 50);
+    font-weight: bold;
+}
+
+.aBtn,
+.aBtn:hover,
+.aBtn:visited{
+    text-decoration: none;
+}
+
+.btn2 a{
+    color: black;
+    font-weight: bold;
+}
+
+.btn2{
+    background-color: rgb(252, 210, 50);
+}
+
+.btn3 a{
+    color: rgb(252, 210, 50);
+    font-weight: bold;
+}
+
+.btn3{
+    background-color: black;
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .nav_right{
+        display: none;
+    }
+    
+} 
+
+@media only screen and (max-width: 991px) {
+
+    .nav-height{
+        border: none;
+    }
+}
+
+
+
+

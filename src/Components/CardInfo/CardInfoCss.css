@@ -1,0 +1,117 @@
+.imgSecondPage{
+    height: 500px !important;
+    max-width:100%;
+    max-height:100%;
+    width: 100%;
+    object-fit: cover;
+    
+    -webkit-clip-path: polygon(0px 500px,962px 420px, 5500px 0px, 0px 0px);
+    clip-path: fill-box;
+}
+
+.buttonsImage{
+    position: absolute;
+    top: 10%;
+}
+
+.imageContainer{
+    height: 500px !important;
+    position: relative;
+}
+
+.alignC{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.customGrayBackground{
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.secondPageTable{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minusMar{
+    margin-top: -40px;
+    font-size: 13px;
+}
+
+.borderTop{
+    border-top: 1px solid lightgray;
+}
+
+.mbott{
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .marginInfoQuery{
+        margin-left: 8%;
+    }  
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .customFont{
+        font-size: 14px;
+    }  
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .marginInfoQuery{
+        margin-left: 10%;
+    }  
+
+}
+
+@media only screen and (max-width: 767px) {
+
+     .marginInfoQuery{
+        margin-left: 0%;
+    }  
+
+    .customPositionCardInfo{
+        position: relative;
+    }
+    
+    
+    .iconMove{
+        position: absolute;
+        right: 130%;
+    }
+
+    .iconCardInfoQuery{
+        position: absolute;
+        right: 50px;
+    }
+
+    .marginInfoQuery{
+        margin-left: -5%;
+    }
+
+    .marginInfoQuery2{
+        margin-left: -38%;
+    } 
+}
+
+@media only screen and (max-width: 575px) {
+    .queryContainerInfo{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .iconCardInfoQuery{
+        right: 65%;
+    }
+}

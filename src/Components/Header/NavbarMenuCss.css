@@ -1,0 +1,158 @@
+.mySidenav {
+    height: 100%;
+    box-shadow: 0.2px 0px 1px rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    width: 25%;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-left: 0;
+    padding-right: 0; 
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+.open{
+    transform: translateX(0);
+}
+
+.sideDrawer a {
+    padding: 8px 20px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.sideDrawer a:first-child {
+    margin-top: 5rem;
+}
+
+.sideLogo a:hover{
+    cursor: context-menu;
+}
+
+.sideLogo i:hover,
+.sideLogo-img:hover{
+    cursor: pointer;
+}
+
+.sideLogo {
+    text-decoration: none;
+}
+
+.sideLogo-img {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.sideDrawer a:nth-child(1),
+.sideDrawer a:nth-child(2) {
+    color: rgb(252, 210, 50);
+}
+
+.closebtn {
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    color: black !important;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+} 
+
+.sideLogo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.closebtn:focus{
+    outline: none;
+    
+}
+
+.closebtn i{
+    font-size: 30px;
+    color: black !important;
+}
+
+@media only screen and (max-width: 2560px) {
+    
+    .sideLogo-img{
+        width: 50%;
+    }
+    
+}
+
+@media only screen and (max-width: 1900px) {
+
+    .sideLogo-img{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .sideLogo-img{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and  (max-width: 1050px) {
+
+    .mySidenav{
+        width: 35%;
+    }
+}
+
+@media only screen and  (max-width: 991px) {
+
+    .mySidenav{
+        width: 45%;
+    }
+}
+
+@media only screen and  (max-width: 767px) {
+
+    .sideLogo-img{
+        width: 80%;
+    }
+
+}
+
+@media only screen and  (max-width: 575px) {
+
+    .mySidenav{
+        width: 60%;
+    }
+
+}
+
+@media only screen and  (max-width: 450px) {
+
+    .mySidenav{
+        width: 80%;
+    }
+
+}
+
+@media only screen and  (max-width: 450px) {
+
+    .sideLogo-img{
+        width: 100%;
+    }
+
+}

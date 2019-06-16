@@ -1,0 +1,31 @@
+.navbar_brand {
+    height: fit-content;
+    border: none;
+    background-color: transparent;
+}
+
+.navbar_brand:focus{
+    outline: none;
+}
+
+.navbar-brand > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    max-height: 50%;
+    max-width: 150%;
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar-brand > img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .navbar-brand > img {
+        width: 150%;
+    }
+}

@@ -1,0 +1,134 @@
+.whiteText {
+    color: white;
+}
+
+.mainFuture{
+    margin-top: -55%;
+}
+
+@media only screen and (max-width: 2560px) {
+
+    .mainFuture{
+        margin-top: -45%;
+    }
+    
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .mainFuture{
+        margin-top: -55%;
+    }  
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .mainFuture{
+        margin-top: -55%;
+    }  
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .mainFuture{
+        margin-top: -60%;
+    }  
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .mainFuture{
+        margin-top: -65%;
+    }   
+} 
+
+@media only screen and (max-width: 991px) {
+
+    .mainFuture{
+        margin-top: -70%;
+    }  
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .mainFuture{
+        margin-top: -80%;
+    }  
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .mainFuture{
+        margin-top: -90%;
+    }  
+
+} 
+
+@media only screen and (max-width: 768px) {
+
+    .brHidden{
+        display: none;
+    }  
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .mainFuture{
+        margin-top: -110%;
+    }  
+
+} 
+
+@media only screen and (max-width: 550px) {
+
+    .mainFuture{
+        margin-top: -120%;
+    }  
+
+}
+
+@media only screen and (max-width: 466px){
+
+    .mainFuture{
+        margin-top: -150%;
+    }  
+}
+
+@media only screen and (max-width: 425px){
+
+    .mainFuture{
+        margin-top: -170%;
+    }  
+}
+
+@media only screen and (max-width: 375px){
+    .mainFuture{
+        margin-top: -190%;
+    } 
+}
+
+@media only screen and (max-width: 350px){
+
+    .mainFuture{
+        margin-top: -210%;
+    } 
+    
+}
+
+@media only screen and (max-width: 320px){
+
+    .mainFuture{
+        margin-top: -220%;
+    } 
+    
+}
+
+
+
+
+
+
+

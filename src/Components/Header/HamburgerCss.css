@@ -1,0 +1,61 @@
+@media only screen and (max-width: 466px) {
+
+    .nav_left button{
+        
+        position: absolute;
+        top: 25%;
+        left: 20%;
+    }  
+
+    .nav_left span{
+        
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        font-size: 80%;
+    }  
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .nav_left button{
+        top: 20%;
+        font-size: 80%;
+    } 
+
+    .nav_left span{
+        
+        top: 30%;
+        font-size: 70%;
+    }  
+
+}
+
+@media only screen and (max-width: 375px) {
+    .nav_left button{
+        top: 25%;
+        font-size: 70%;
+    } 
+
+    .nav_left span{
+        
+        top: 35%;
+        font-size: 70%;
+    }  
+
+}
+
+@media only screen and (max-width: 320px) {
+    .nav_left button{
+        top: 21%;
+        font-size: 70%;
+    } 
+
+    .nav_left span{
+        
+        top: 30%;
+        font-size: 70%;
+    }  
+
+}

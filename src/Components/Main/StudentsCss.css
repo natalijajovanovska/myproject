@@ -1,0 +1,110 @@
+.upperPurple{
+    height: 950px;
+    padding-top: 8%;
+    background: linear-gradient(175deg, rgba(51, 1, 107, 1) 87%, rgba(51, 1, 107, 1) 75%, rgba(255, 255, 255, 1) 87.1%);
+}
+
+.smallerText{
+    font-size: 14px;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.brainsterYellow,
+.brainsterYellow:hover {
+    color: rgb(252, 210, 50);
+    text-decoration: underline;
+}
+
+.displayNone{
+    display: none;
+}
+
+@media only screen and (max-width: 2560px) {
+
+    .upperPurple{
+        height: 1500px;
+    }
+    
+}
+
+@media only screen and (max-width: 1900px) {
+
+    .upperPurple{
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .upperPurple{
+        height: 950px;
+    }
+    
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .displayNone{
+        display: block;
+    }
+
+} 
+
+@media only screen and (max-width: 991px) {
+
+    .upperPurple{
+        padding-top: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .upperPurple{
+        padding-top: 10%;
+    }
+
+} 
+
+@media only screen and (max-width: 768px) {
+
+    .upperPurple{
+        padding-top: 12%;
+    }
+
+} 
+
+@media only screen and (max-width: 575px) {
+
+    .upperPurple{
+        padding-top: 15%;
+    }
+
+} 
+@media only screen and (max-width: 466px){
+
+    .smallerText{
+        font-size: 12px;
+    }
+    .btnQue{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 369px){
+
+    .btnQue{
+        font-size: 65%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+
+    .upperPurple{
+        padding-top: 20%;
+    }
+    
+}

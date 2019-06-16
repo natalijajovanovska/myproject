@@ -1,0 +1,257 @@
+.iconCardImg{
+    height: auto;
+    width: 150%;
+    max-height: 300%;
+    max-width: 300%; 
+}
+
+.textGrey{
+    color: gray;
+    margin-top: -12%;
+}
+
+.minusMargin{
+    margin-top: -2%;
+}
+
+.nohover,
+.nohover:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.nohover:hover{
+    border: 2px solid rgb(252, 210, 50) !important;
+    border-radius: 2%;
+    color: black;
+    text-decoration: none;
+}
+
+.blueText {
+    color: #77abff;
+    font-weight: bold;
+}
+
+.customCard{
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.51);
+    box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border: none;
+    border-radius: 2%;
+}
+
+.nohoverText:hover{
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 2560px) {
+
+    .paddingIcon{
+        padding-right: 20px;
+        margin-left: 0 !important;
+    }
+
+    .margQuery{
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .textGrey{
+        margin-top: -30%;
+    }
+    .customCard{
+        height: 550px;
+        position: relative;
+    }
+
+    .customPosition{
+        position: absolute;
+        bottom: 2%;
+        left: 11%;
+    }
+
+    .customPositionCat{
+        position: absolute;
+        top: 80px;
+    }
+
+    .iconCardImg{
+        width: 300%;
+    }
+
+    .paddingIcon{
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
+@media only screen and  (max-width: 1050px) {
+
+    .iconCardImg{
+        width: 300%;
+    }
+}
+
+@media only screen and  (max-width: 991px) {
+
+    .iconCardImg{
+        width: 150%;
+    }
+
+    .paddingIcon{
+        padding-right: 5%;
+        padding-left: 0;
+    }
+
+    .textGrey{
+        margin-top: -25%;
+    }
+
+    .paddingQuery{
+        padding-left: 15%;
+    }
+}
+
+@media only screen and  (max-width: 768px) {
+
+    .iconCardImg{
+        width: 180%;
+    }
+    .paddingIcon{
+        padding-right: 12px;
+        padding-left: 0;
+    }
+
+    .textGrey{
+        margin-top: -33%;
+    }
+    .customCard{
+        height: 480px;
+        position: relative;
+    }
+
+    .customPosition{
+        position: absolute;
+        bottom: 2%;
+        left: 8%;
+    }
+
+    .customPositionCat{
+        position: absolute;
+        top: 70px;
+    }
+}
+
+@media only screen and  (max-width: 767px) {
+
+    .imgHidden{
+        display: none;
+    }
+
+    .customCard{
+        padding-left: 2%;
+        padding-right: 2%;
+        height: 200px;
+    }
+
+    .iconCardImg{
+        width: 70%;
+    }
+    .customPositionCat{
+        position: absolute;
+        top: 40px;
+    }
+
+    .iconQuery{
+        position: absolute;
+        top: 30px;
+        right: 10px;
+    }
+
+    .posAbsCard{
+        margin-left: 20px;
+    }
+
+    .paddingIcon{
+        display: flex;
+        justify-content: flex-end;  
+    }
+    .textGrey{
+        margin-top: -30%;
+    }
+  
+}
+
+@media only screen and  (max-width: 575px) {
+
+    
+    .customCard{
+        height: 220px;
+        position: relative;
+
+    }
+    .iconCardImg{
+        width: 10%;
+    }
+
+    .iconQuery{
+        right: 90%;
+    }
+
+    
+    .iconCardImg{
+        width: 50%;
+    }
+
+    .i575{
+        position: absolute;
+        bottom: 0;
+        left: 320%;
+
+    }
+
+}
+
+@media only screen and  (max-width: 574px) {
+
+
+    .iconCardImg{
+        width: 50%;
+    }
+
+    .iconQuery{
+       
+      right: 90%;
+    } 
+
+
+}
+
+@media only screen and (max-width: 466px){
+    .iconQuery{
+       
+        right: 85%;
+      } 
+  
+}
+
+@media only screen and (max-width: 375px){
+    .iconQuery{
+       
+        font-size: 150%;
+      } 
+
+      .iconCardImg{
+        width: 60%;
+    }
+
+    .i575{
+        position: absolute;
+        bottom: 0;
+        left: 300%;
+
+    }
+  
+}

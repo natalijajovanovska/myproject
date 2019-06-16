@@ -1,0 +1,34 @@
+.spinner{
+    margin-top: 20%;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(252, 210, 50);
+}
+
+.spinnerDiv{
+    margin-top: -10%;
+    height: 2000px;
+    background-color: rgb(51, 1, 107);
+}
+
+@media only screen and (max-width: 2560px) {
+
+    .spinnerDiv{
+        height: 5000px;
+    }
+    
+}
+
+@media only screen and  (max-width: 768px) {
+    .spinnerDiv{
+        margin-top: -5%;
+    }
+}
+
+@media only screen and  (max-width: 325px) {
+
+    .spinner{
+        font-size: 50%;
+    }
+}
+
