@@ -18,8 +18,10 @@ const Card = (props) => {
                                 <p className="minusMargin nohoverText  customPositionCat">Категорија: <span className="blueText"> {props.category}</span></p>
                             </div>
                             <div className="col-md-3 col-sm-3 col-3 col-lg-3 col-xl-3">
-                                <div className="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-12 mr-3 paddingIcon i575">
+                                <div className="row">
+                                    <div className="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-12 mr-3 paddingIcon i575">
                                     <img className="img-fluid iconCardImg " src={props.img} alt="img" />
+                                </div>
                                 </div>
                             </div>
                         </div>
