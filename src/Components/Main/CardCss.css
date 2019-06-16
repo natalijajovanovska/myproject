@@ -1,7 +1,7 @@
 .iconCardImg{
-    
+    height: auto;
     width: 150%;
-    max-height: 40%;
+    max-height: 300%;
     max-width: 300%; 
 }
 
@@ -157,7 +157,7 @@
     }
 
     .iconCardImg{
-        width: 70%;
+        width: 20%;
     }
     .customPositionCat{
         position: absolute;
