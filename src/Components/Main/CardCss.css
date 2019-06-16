@@ -117,7 +117,7 @@
 @media only screen and  (max-width: 768px) {
 
     .iconCardImg{
-        width: 180%;
+        width: 50%;
     }
     .paddingIcon{
         padding-right: 12px;
@@ -157,7 +157,7 @@
     }
 
     .iconCardImg{
-        width: 20%;
+        width: 70%;
     }
     .customPositionCat{
         position: absolute;
