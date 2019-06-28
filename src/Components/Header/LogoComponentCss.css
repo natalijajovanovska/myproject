@@ -4,6 +4,10 @@
     background-color: transparent;
 }
 
+.hoverPointer:hover{
+    cursor: pointer;
+}
+
 .navbar_brand:focus{
     outline: none;
 }
