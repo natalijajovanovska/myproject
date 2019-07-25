@@ -4,11 +4,8 @@ import Logo from './logo.png';
 
 class LogoComponent extends React.Component {
 
-    scrollTopFn = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'     
-        });
+   scrollTopFn = () => {
+        window.scrollTo(0, 0);
     }
 
     render() {
