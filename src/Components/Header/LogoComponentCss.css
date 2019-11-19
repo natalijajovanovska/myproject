@@ -13,9 +13,9 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    width: auto;
+    width: 50%;
     max-height: 50%;
-    max-width: 150%;
+    max-width: 50%;
 }
 
 @media only screen and (max-width: 425px) {
